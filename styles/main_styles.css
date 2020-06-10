@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:wght@700&family=Playfair+Display+SC:wght@700&family=Roboto+Slab:wght@700&family=Roboto:wght@700&display=swap');
+
 
 *, html {
     padding: 0;
@@ -15,7 +15,7 @@ body {
 
 header {
     height: 70vh;
-    background: url('../images/hotel-background.jpg') center/cover no-repeat;
+    background: url('../images/hotel-bg.jpg') center/cover no-repeat;
     display: flex;
     color: #ffffff;
     position: relative;
