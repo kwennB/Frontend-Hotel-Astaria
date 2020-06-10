@@ -350,6 +350,11 @@ nav {
         border-right: 1px solid #fff;
     }
 
+    .navbar-list {
+        padding: 0 2.5rem;
+        list-style-type: none;
+    }
+
     .navbar-list:last-child{
         border-right: none;
     }
