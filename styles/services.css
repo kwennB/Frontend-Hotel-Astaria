@@ -23,19 +23,29 @@ header {
     display: flex;
     justify-content: space-between;
     position: absolute;
-    padding: 1rem;
-    bottom: 20px;
+    bottom: 50px;
     right: 0;
     left: 0;
 }
 
-#logo {
-    font-size: 2em;
+#logo a {
+    position: absolute;
+    bottom: 60px;
+    left: 2rem;
     text-align: center;
     font-family: 'Playfair Display', serif;
-    cursor: pointer;
+    color: #fff;
     text-decoration: none;
-    color: #ffffff;
+}
+
+nav {
+    padding-right: 1rem;
+}
+
+.nav {
+    position: absolute;
+    bottom: 60px;
+    right: 0.5rem;
 }
 
 #menu {
@@ -65,7 +75,12 @@ header {
     font-family: 'Roboto Slab', serif;
 }
 
+.active-bar {
+    color: #fbb537;
+}
+
 /* End of header styling */
+
 /*a {
 	text-decoration: none;
 }
@@ -231,6 +246,11 @@ footer {
     padding: 2rem 10px;
 }
 
+ footer h2 a {
+      color: #fff;
+      text-decoration: none;
+  }
+
 .footer-list li {
     list-style-type: none;
     padding: 10px;
@@ -371,6 +391,11 @@ footer {
         margin-top: 37px;
         margin-bottom: 0;
         border-right: 1px solid #fff;
+    }
+
+    .navbar-list {
+        padding: 0 2.5rem;
+        list-style-type: none;
     }
 
     .navbar-list:last-child{
