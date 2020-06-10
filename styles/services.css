@@ -338,3 +338,42 @@ footer {
   }
 
 }
+
+@media screen and (min-width: 1000px) {
+    .container {
+        width: 1140px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .show-desktop{
+        display: block;
+        margin: 0 auto 13% auto;
+    }
+
+    .hide-desktop{
+        display: none;
+    }
+
+    .navbar {
+        display: block;
+        width: 100%;
+    }
+
+    .navbar-list {
+        float: left;
+        font-size: 1em;
+        padding: 3px 45px;
+        margin-top: 37px;
+        margin-bottom: 0;
+        border-right: 1px solid #fff;
+    }
+
+    .navbar-list:last-child{
+        border-right: none;
+    }
+}
