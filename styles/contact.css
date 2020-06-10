@@ -15,7 +15,7 @@ body {
 
 header {
     height: 50vh;
-    background: url('/contactheader-background.svg') center/cover no-repeat;
+    background: url('./images/contactheader-background.svg') center/cover no-repeat;
     display: flex;
     color: #ffffff;
     position: relative;
@@ -157,7 +157,7 @@ header {
 
 .receptionist {
     height: 70vh;
-    background: url('/receptionist.svg') center/cover no-repeat;
+    background: url('./images/receptionist.svg') center/cover no-repeat;
 }
 /* End of enquiry styling */
 
