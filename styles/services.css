@@ -204,7 +204,7 @@ nav {
     display: block;
     padding: 10px;
     margin: 10px auto;
-    width: 30%;
+    width: 80%;
 }
 
 button {
@@ -274,6 +274,14 @@ button {
   }
 
 @media screen and (min-width: 750px) {
+    .input-col {
+        display: block;
+        padding: 10px;
+        margin: 10px auto;
+        width: 30%;
+    }
+
+    
     .footer-content {
         display: flex;
         justify-content: space-between;
