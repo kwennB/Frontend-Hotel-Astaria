@@ -164,7 +164,7 @@ nav {
 
 .gallery-col img {
     width: 100%;
-    height: 60vh;
+    height: 40vh;
 }
 
 .paragraph {
@@ -275,6 +275,11 @@ button {
   }
 
 @media screen and (min-width: 750px) {
+    .gallery-col img {
+        width: 100%;
+        height: 60vh;
+    }
+    
     .input-col {
         display: block;
         padding: 10px;
