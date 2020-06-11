@@ -382,11 +382,12 @@ nav {
 .col-title {
     text-transform: uppercase;
     font-size: 1.17em;
+    padding: 10px;
 }
 
 .col-paragraph {
     margin-bottom: 10px;
-    line-height: 1rem;
+    line-height: 1.2rem;
 }
 
 .profile-title {
