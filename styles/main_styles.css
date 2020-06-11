@@ -279,8 +279,10 @@ footer h2 a {
 }
 
 .social-icon {
-      text-align: center;
-}
+      margin: 0 auto;
+      width: 30%;
+      margin-bottom: 20px;
+  }
 
 .social-icon li {
       float: left;
@@ -330,6 +332,11 @@ footer h2 a {
         display: flex;
         justify-content: space-between;
     }
+    
+    .social-icon {
+      margin: 0 auto;
+      width: 100%;
+  }
 
 }
 
