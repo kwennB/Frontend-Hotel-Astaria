@@ -95,10 +95,12 @@ nav {
 }
 
 .service-title {
-    text-transform: uppercase;
-    font-size: 1.5em;
     text-align: center;
-    padding: 10px;
+    text-transform: uppercase;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    font-size: 1.2em;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .row {
@@ -167,10 +169,10 @@ nav {
 
 .paragraph {
     width: 70%;
-    margin: 0 auto;
+    margin: 10px auto;
     text-align: center;
     font-size: 1.2em;
-    padding: 1em auto;
+    padding: 10px;
 }
 /* End of gallery styling */
 
@@ -182,9 +184,13 @@ nav {
     margin-top: 5%;
 }
 
-.news-title h2 {
-    padding: 10px auto;
+.news-title h2  {
+    text-align: center;
     text-transform: uppercase;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    font-size: 1.2em;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .news-content p {
@@ -202,6 +208,7 @@ nav {
 }
 
 button {
+    margin-top: 15px;
     padding: 10px 15px;
     width: 200px;
     color: #fff;
