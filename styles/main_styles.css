@@ -245,7 +245,7 @@ nav ul {
 /* footer header styling */
 footer {
       margin-top: 5%;
-      padding-top: 3%;
+      padding-bottom: 3%;
       color: #ffffff;
       background: #333333;
       text-align: center;
@@ -281,7 +281,6 @@ footer h2 a {
 .social-icon {
       margin: 0 auto;
       width: 30%;
-      margin-bottom: 20px;
   }
 
 .social-icon li {
