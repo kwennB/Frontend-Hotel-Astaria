@@ -187,22 +187,7 @@ nav {
 }
 /* End of enquiry styling */
 
-/* Location styling */
-#map {
-    width: 100%;
-    height: 50vh;
-    background-color: grey;
-  }
-
-  .location-title {
-      margin-top: 5%;
-      margin-bottom: 2%;
-      text-align: center;
-      font-size: 1.2rem;
-      font-family: 'Cormorant Garamond', serif;
-      text-transform: uppercase;
-  }
-
+/* footer styling */
   footer {
       margin-top: 5%;
       padding-top: 3%;
