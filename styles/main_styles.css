@@ -250,6 +250,7 @@ footer {
       background: #333333;
       text-align: center;
       font-family: 'Playfair Display', serif;
+      overflow: hidden;
 }
 
 .footer-content {
