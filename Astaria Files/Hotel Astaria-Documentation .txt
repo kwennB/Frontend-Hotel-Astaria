@@ -1,0 +1,7 @@
+﻿This is a document on the Astaria Hotels Website Folder.
+- There is a main folder Astaria files, which contains two other folders with the documentation document and the description document.
+- The first folder contains four other folders containing screenshots of the website in desktop view, and named accordingly.
+- The second folder contains four other folders containing screenshots of the website in mobile view, and named accordingly.
+- The description document gives a brief description of the Astaria Hotels Website. 
+
+
