@@ -22,10 +22,6 @@ header {
     position: relative;
 }
 
-p{
-    line-height: 1.4em;
-}
-
 .header-title {
     display: flex;
     justify-content: space-between;
@@ -179,6 +175,7 @@ nav {
     text-align: center;
     font-size: 1.2em;
     padding: 1em auto;
+    line-height: 1.5em;
 }
 /* End of gallery styling */
 
@@ -203,6 +200,7 @@ nav {
     padding: 10px;
     font-size: 1.1em;
     text-align: left;
+    line-height: 1.5em;
 }
 
 .input-col {
@@ -309,6 +307,9 @@ button {
         width: 30%;
     }
 
+    .service-title {
+        font-size: 1.5em;
+    }
     
     .footer-content {
         display: flex;
