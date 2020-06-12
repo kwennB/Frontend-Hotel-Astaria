@@ -287,7 +287,7 @@ footer h2 a {
 .social-icon li {
       float: left;
       list-style-type: none;
-      padding: 10px;
+      padding: 10px 5px;
       font-size: 15px;
 }
 
