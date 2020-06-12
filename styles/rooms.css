@@ -424,7 +424,7 @@ nav {
     font-size: 25px;
     height: 25px;
     width: 100px;
-    margin: 0 auto;
+    margin: 10px auto;
     position: relative;
   } 
   .star-ratings-css::before { 
