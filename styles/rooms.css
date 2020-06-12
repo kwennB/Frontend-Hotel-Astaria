@@ -464,6 +464,42 @@ footer h2 a {
 	width: attr(rating);
 	overflow: hidden;
 }
+=======
+    unicode-bidi: bidi-override;
+    font-size: 25px;
+    height: 25px;
+    width: 100px;
+    margin: 10px auto;
+    position: relative;
+  } 
+  .star-ratings-css::before { 
+    content: '★★★★★';
+    opacity: .3;
+  }
+  [title=".375"]::after {
+    width: 37.5%;
+  }
+  [title=".625"]::after {
+    width: 62.5%;
+  }
+  [title=".875"]::after {
+    width: 85%;
+  }
+  [title=".1000"]::after {
+    width: 100%;
+  }
+  .star-ratings-css::after {
+    color: gold;
+    content: '★★★★★';
+    text-shadow: 0 1px 0 #ab5414;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    left: 0;
+    top:0;
+    width: attr(rating);
+    overflow: hidden;
+  }
 
 /* end of room rating */
 
