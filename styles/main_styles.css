@@ -288,7 +288,7 @@ footer h2 a {
       float: left;
       list-style-type: none;
       padding: 10px;
-      font-size: 20px;
+      font-size: 15px;
 }
 
   .social-icon li a {
@@ -337,6 +337,13 @@ footer h2 a {
       margin: 0 auto;
       width: 100%;
   }
+    
+    .social-icon li {
+          float: left;
+          list-style-type: none;
+          padding: 10px;
+          font-size: 20px;
+    }
 
 }
 
