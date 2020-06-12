@@ -223,21 +223,22 @@ nav {
       padding: 10px;
   }
 
-  .social-icon {
+   .social-icon {
       margin: 0 auto;
       width: 50%;
+      display: flex;
+      justify-content: space-between;
   }
 
-  .social-icon li {
+  .social-icon div {
       float: left;
       list-style-type: none;
-      padding: 10px;
-      font-size: 20px;
+      padding: 7px 10px;
+      font-size: 15px;
   }
 
-  .social-icon li a {
+  .social-icon div a {
       color: #ffffff;
-      text-align: center;
   }
 
 @media screen and (min-width: 750px) {
@@ -300,10 +301,17 @@ nav {
         justify-content: space-between;
     }
     
-    .social-icon {
-      margin: 0 auto;
-      width: 100%;
-  }
+   .social-icon {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .social-icon div {
+        float: left;
+        list-style-type: none;
+        padding: 7px 10px;
+        font-size: 18px;
+    }
 
     .prof {
         font-family: sans-serif;
