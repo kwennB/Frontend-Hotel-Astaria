@@ -144,7 +144,7 @@ nav {
 /* end of service style */
 
 /* gallery styling */
-.gallery-row {
+..gallery-row {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     justify-content: center;
@@ -163,8 +163,8 @@ nav {
 }
 
 .gallery-col img {
-    width: 300px;
-    height: 40vh;
+    width: 100%;
+    height: 50vh;
 }
 
 .paragraph {
@@ -277,16 +277,6 @@ button {
   }
 
 @media screen and (min-width: 500px) {
-    .gallery-col {
-        width: 80%;
-        margin: 0 auto;
-        transition: all 1s;
-    }
-    
-    .gallery-col img {
-        width: 100%;
-        height: 40vh;
-    }
     
       .news-title h2 {
         font-size: 1.5em;
