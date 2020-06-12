@@ -204,7 +204,7 @@ nav ul {
     text-align: center;
 }
 
-.room-button button {
+.room-button a button {
     padding: 10px 15px;
     color: #fff;
     border: none;
