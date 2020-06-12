@@ -281,19 +281,20 @@ footer h2 a {
 
 .social-icon {
       margin: 0 auto;
-      width: 40%;
+      width: 50%;
+      display: flex;
+      justify-content: space-between;
   }
 
-.social-icon li {
+  .social-icon div {
       float: left;
       list-style-type: none;
-      padding: 10px 5px;
+      padding: 7px 10px;
       font-size: 15px;
-}
+  }
 
-  .social-icon li a {
+  .social-icon div a {
       color: #ffffff;
-      text-align: center;
   }
 /* End of footer style */
 @media screen and (min-width: 600px) {
@@ -333,16 +334,16 @@ footer h2 a {
         justify-content: space-between;
     }
     
-    .social-icon {
-      margin: 0 auto;
-      width: 100%;
-  }
-    
-    .social-icon li {
-          float: left;
-          list-style-type: none;
-          padding: 10px;
-          font-size: 20px;
+  .social-icon {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .social-icon div {
+        float: left;
+        list-style-type: none;
+        padding: 7px 10px;
+        font-size: 18px;
     }
 
 }
