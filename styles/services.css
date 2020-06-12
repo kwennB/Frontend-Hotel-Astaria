@@ -167,6 +167,10 @@ nav {
     height: 50vh;
 }
 
+.spa {
+    max-width: 200px;
+}
+
 .paragraph {
     width: 70%;
     margin: 10px auto;
